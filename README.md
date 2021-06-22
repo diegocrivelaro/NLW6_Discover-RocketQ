@@ -5,10 +5,10 @@
 <p align="center">❓ O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas.</p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diegocrivelaro/formulario-orcamento-eventos?color=gree&label=Linguagens%3A&style=flat-square">
-  <a href="https://github.com/diegocrivelaro/formulario-orcamento-eventos/blob/main/LICENCE"><img alt="GitHub license" src="https://img.shields.io/github/license/diegocrivelaro/formulario-orcamento-eventos?label=Licen%C3%A7a&style=flat-square"></a>
-  <a href="https://github.com/diegocrivelaro/formulario-orcamento-eventos/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/diegocrivelaro/formulario-orcamento-eventos?label=Estrelas%3A&style=flat-square"></a>
-  <a href="https://github.com/diegocrivelaro/formulario-orcamento-eventos/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/diegocrivelaro/formulario-orcamento-eventos?label=Forks%3A%20&style=flat-square"></a>
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diegocrivelaro/NLW6_Discover-RocketQ?label=Linguagens%3A&style=flat-square">
+  <a href="https://github.com/diegocrivelaro/NLW6_Discover-RocketQ/blob/main/LICENCE"><img alt="GitHub license" src="https://img.shields.io/github/license/diegocrivelaro/NLW6_Discover-RocketQ?color=gree&label=Licen%C3%A7a%3A&style=flat-square"></a>
+  <a href="https://github.com/diegocrivelaro/NLW6_Discover-RocketQ/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/diegocrivelaro/NLW6_Discover-RocketQ?label=Estrelas%3A&style=flat-square"></a>
+  <a href="https://github.com/diegocrivelaro/NLW6_Discover-RocketQ/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/diegocrivelaro/NLW6_Discover-RocketQ?label=Forks%3A&style=flat-square"></a>
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@
 ---
 ## ✅ Features
 - [X] Voltar na página principal com apenas um clique na logo
-- [ ] Responsivo
+- [X] Responsivo
 
 ---
 ## 🖼 Demonstração
@@ -41,18 +41,14 @@
     <img src="" width="90%" alt="demonstração"/>
 </p>
 
-<p align="center">
-  <a href=""><b>CLIQUE ME</b>
-</p>
-
 ---
 
 ## 🚀 Como executar o projeto
 ```bash
 # Clone este repositório
-$ git clone {repositório}
+$ git clone https://github.com/diegocrivelaro/NLW6_Discover-RocketQ.git
 
-# Clique no arquivo index.html para abrir
+# Clique no arquivo home.html para abrir
 
 # PRONTO!
 ```
