@@ -1,0 +1,122 @@
+/*------------*/
+/* Cabeçalho */
+.content {
+    max-width: min(112rem, 90%); /* Se continuar crescendo, e o 112rem acabar sendo MAIOR que 90% da tela, ele irá TRAVAR em 90%. */
+}
+
+#room header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*------------*/
+
+/*------------*/
+/* Botões de Criar sala e Copiar código da sala */
+#room header .buttons {
+    display: flex;
+}
+
+#room header .buttons .button:nth-child(1) {
+    width: 13.5rem;
+    height: 5rem;
+
+    margin: 0 0.8rem 0 0; /* Distanciamento dos dois botões */
+    padding: 1.3rem 1.6rem;
+}
+
+#room header .buttons .button:nth-child(2) {
+    width: 17.5rem;
+    height: 5rem;
+
+    padding: 1.3rem 3.2rem;
+}
+/*------------*/
+
+/*------------*/
+/* Imagens dos botóes de criar sala e copiar código da sala */
+#room header .buttons .button:nth-child(1) img {
+    width: 2rem;
+    height: 2rem;
+
+    margin: 0 0 0 1.16rem;
+}
+
+#room header .buttons .button:nth-child(2) img {
+    width: 2rem;
+    height: 2rem;
+
+    margin: 0 1rem 0 0;
+}
+/*------------*/
+
+#question-form h2 {
+    margin-bottom: 2.4rem;
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+    color: var(--black)
+}
+
+#question-form form {
+    padding: 1.2rem 1.6rem;
+    
+    border: .2rem solid var(--grey-blue);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+/*------------*/
+/* Campo de perguntas */
+#question-form form textarea {
+    width: 100%;
+    resize: none;
+
+    background-color: none;
+}
+
+#question-form form textarea:focus {
+    outline: none;
+}
+
+#question-form form textarea::placeholder {
+    color: var(--grey-blue);
+}
+/*------------*/
+
+/*------------*/
+/* Campo que mostra que a pergunta é anônima */
+#question-form form footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#question-form form footer > div {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--icons-details);
+}
+
+#question-form form footer div img {
+    margin-right: .9rem;
+}
+/*------------*/
+
+/*------------*/
+/* Botão de enviar pergunta */
+#question-form form footer button {
+    height: 4rem;
+
+    padding: .8rem 2.4rem;
+}
+/*------------*/
