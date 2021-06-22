@@ -71,6 +71,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Leandro-Bezerra-Santos"><img src="/assets-README/leandrobezerra.jpg" width="100px;" /><br /><sub><b>Leandro Bezerra Santos</b></sub></a><br /><a href="https://github.com/Leandro-Bezerra-Santos"></a></td>
+    <td align="center"><a href="https://github.com/JPFregni"><img src="/assets-README/joao.png" width="100px;" /><br /><sub><b>João Paulo Stefani Fregni</b></sub></a><br /><a href="https://github.com/JPFregni"></a></td>
   </tr>
 </table> 
 
