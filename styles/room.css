@@ -64,6 +64,7 @@
 
 #question-form form {
     padding: 1.2rem 1.6rem;
+    margin-bottom: 1.6rem;
     
     border: .2rem solid var(--grey-blue);
     border-top-right-radius: 8px;
@@ -118,5 +119,66 @@
     height: 4rem;
 
     padding: .8rem 2.4rem;
+}
+/*------------*/
+
+/*------------*/
+/* Parte das perguntas */
+.question-wrapper {
+    margin-bottom: .8rem;
+    padding: 2.4rem;
+
+    background-color: var(--light-blue);
+    border-radius: 0 .8rem .8rem .8rem;
+}
+
+.question-wrapper .question-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.question-wrapper .question-content .user {
+    clip-path: circle();
+    padding: 1.4rem;
+
+    background-color: var(--blue);
+}
+
+.question-wrapper .question-content .question p {
+    margin-left: 1.6rem;
+    word-break: break-word; /* Se a palavra for muito grande para o espaço que ela está, quebre ela. */
+
+
+    font-size: 1.6rem;
+    color: var(--grey-dark);
+}
+
+.question-wrapper .actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.question-wrapper .actions a {
+    display: flex;
+    align-items: center;
+}
+
+.question-wrapper .actions a:nth-child(2) {
+    padding-left: 2.4rem;
+}
+
+.question-wrapper .actions a img {
+    margin-right: 1.2rem;
+}
+/*------------*/
+
+/*------------*/
+/* Questão Lida */
+.question-wrapper.read {
+    background-color: var(--grey-medium);
+}
+.question-wrapper.read .question-content .user {
+    background-color: var(--grey-blue);
 }
 /*------------*/
