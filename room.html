@@ -11,6 +11,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="styles/global.css">        
         <link rel="stylesheet" href="styles/room.css">
+        <link rel="stylesheet" href="styles/modal.css">
 
         <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,7 +21,9 @@
     <body>
         <div id="room" class="content">
             <header>
-                <img src="assets/logo.svg" alt="Rocket.Q Logo">
+                <a href="home.html">
+                    <img class="logo" src="assets/logo.svg" alt="Rocket.Q Logo">
+                </a>
 
                 <div class="buttons">
                     
@@ -105,8 +108,7 @@
                                 </div>
                                 <div class="question">
                                     <p>
-                                        No Condominio que moro, estamos fazendo racionamento de
-                                        agua já algum tempo, cortando o fornecimento aos moradores diariamente das 13hs as 17hs! O problema é que alguns moradores estão tendo prejuízos com a quebra de aparelhos domésticos (chuveiros e maquinas de lavar) quando o fornecimento é restabelecido! Baseado na LEI 8078 Art.22 de 11/09/90, o Condominio pode cortar o fornecimento de agua por um período determinado em Reunião? Em caso de quebra de aparelhos domésticos, o Sindico precisa ressarcir o prejuízo ao morador?
+                                        O que seria linguagem orientada a objetos? Quando utilizar? Quais linguagens são orientadas a objetos?
                                     </p>
                                 </div>
                             </div>
@@ -141,6 +143,24 @@
                     </div>
                 </section>
             </main>
+        </div>
+
+<!-- MODAL -->
+        <div class="modal-wrapper">
+            <div class="modal">
+                <h2>Excluir pergunta</h2>
+                <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+                <form action="#">
+                    <label class="sr-only" for="modal-id">Digite a senha de criação da sala!</label>
+                    <input type="password" name="password" id="modal-id" placeholder="Digite sua senha!">
+
+                    <div class="buttons">
+                        <div class="button grey">Cancelar</div>
+                        <button class="red">Sim, excluir</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </body>
 

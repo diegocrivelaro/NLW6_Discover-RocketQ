@@ -11,6 +11,10 @@
     align-items: center;
     justify-content: space-between;
 }
+
+#room header a {
+    cursor: pointer;
+}
 /*------------*/
 
 /*------------*/
@@ -147,7 +151,10 @@
 .question-wrapper .question-content .question p {
     margin-left: 1.6rem;
     word-break: break-word; /* Se a palavra for muito grande para o espaço que ela está, quebre ela. */
-
+    
+    min-height: 5.2rem;
+    display: flex;
+    align-items: center;
 
     font-size: 1.6rem;
     color: var(--grey-dark);
@@ -182,3 +189,16 @@
     background-color: var(--grey-blue);
 }
 /*------------*/
+
+/*------------*/
+/* Responsivo */
+@media (max-width: 990px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    /* Criei uma classe para logo para definir uma margem em baixo */
+    header .logo {
+        margin-bottom: 2rem;
+    }
+}
