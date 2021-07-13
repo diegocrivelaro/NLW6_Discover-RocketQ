@@ -38,7 +38,7 @@ body, button, textarea, input {
 }
 
 a {
-    color: white;
+    color: var(--grey-dark);
 }
 
 .content {
@@ -57,7 +57,6 @@ a {
     white-space: nowrap;
     border-width: 0;
 }
-
 
 /*---- input e button ----*/
 
