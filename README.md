@@ -38,7 +38,11 @@
 ## 🖼 Demonstração
 
 <p align="center">
-    <img src="" width="90%" alt="demonstração"/>
+    <img src="assets-README/demonstracao.gif" width="90%" alt="demonstração"/>
+</p>
+
+<p align="center">
+  <a href="https://diegocrivelaro.github.io/NLW6_Discover-RocketQ/"><b>CLIQUE ME</b>
 </p>
 
 ---
@@ -48,7 +52,7 @@
 # Clone este repositório
 $ git clone https://github.com/diegocrivelaro/NLW6_Discover-RocketQ.git
 
-# Clique no arquivo home.html para abrir
+# Clique no arquivo index.html para abrir
 
 # PRONTO!
 ```
@@ -96,7 +100,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 ---
 
 ## 📝 Licença
-Este projeto está sobe a licença <a href="LICENCE">MIT</a>
+Este projeto está sobe a licença MIT
 
 ---
 
